@@ -13,6 +13,8 @@ function RootLayout() {
       return;
     }
 
+
+    
     setTimeout(() => {
       submit(null, { action: "/logout", method: "post" });
     }, 1 * 60 * 60 * 1000);
