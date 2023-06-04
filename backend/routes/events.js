@@ -55,7 +55,7 @@ router.post('/', async (req, res, next) => {
 
   if (Object.keys(errors).length > 0) {
     return res.status(422).json({
-      me ssage: 'Adding the event failed due to validation errors.',
+      message: 'Adding the event failed due to validation errors.',
       errors,
     });
   }
